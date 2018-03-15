@@ -412,7 +412,7 @@
 		86F647501FDA58C900873E41 /* ZWHMessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F6474F1FDA58C900873E41 /* ZWHMessageDetailViewController.m */; };
 		E59EEC5A20521F8400243A15 /* scoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EEC5920521F8400243A15 /* scoreViewController.m */; };
 		E59EEC5D2057BF0B00243A15 /* HMScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EEC5C2057BF0B00243A15 /* HMScoreView.m */; };
-		E5F5B0E7205928990089C58A /* HMScoreScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5B0E6205928990089C58A /* HMScoreScrollView.m */; };
+		E5F5B0EC205A03880089C58A /* HMScoreScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5B0EB205A03880089C58A /* HMScoreScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1175,8 +1175,8 @@
 		E59EEC5920521F8400243A15 /* scoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoreViewController.m; sourceTree = "<group>"; };
 		E59EEC5B2057BF0B00243A15 /* HMScoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMScoreView.h; sourceTree = "<group>"; };
 		E59EEC5C2057BF0B00243A15 /* HMScoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMScoreView.m; sourceTree = "<group>"; };
-		E5F5B0E5205928960089C58A /* HMScoreScrollView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = HMScoreScrollView.h; sourceTree = "<group>"; };
-		E5F5B0E6205928990089C58A /* HMScoreScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScoreScrollView.m; sourceTree = "<group>"; };
+		E5F5B0E9205A03470089C58A /* HMScoreScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScoreScrollView.h; sourceTree = "<group>"; };
+		E5F5B0EB205A03880089C58A /* HMScoreScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScoreScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2647,8 +2647,8 @@
 				8672AFF71FBE9281004F6569 /* ZWHChoseDayView.m */,
 				E59EEC5B2057BF0B00243A15 /* HMScoreView.h */,
 				E59EEC5C2057BF0B00243A15 /* HMScoreView.m */,
-				E5F5B0E5205928960089C58A /* HMScoreScrollView.h */,
-				E5F5B0E6205928990089C58A /* HMScoreScrollView.m */,
+				E5F5B0E9205A03470089C58A /* HMScoreScrollView.h */,
+				E5F5B0EB205A03880089C58A /* HMScoreScrollView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -3285,6 +3285,7 @@
 				869BB47F1FBD5948006E1135 /* ZWHForgetViewController.m in Sources */,
 				8605ADDF1FB02F6A009570CA /* UIApplication+YYAdd.m in Sources */,
 				8605AE101FB02F6B009570CA /* YYTextRubyAnnotation.m in Sources */,
+				E5F5B0EC205A03880089C58A /* HMScoreScrollView.m in Sources */,
 				86443A7F1FBABE190061AEB6 /* ZWHOrderTableViewCell.m in Sources */,
 				860F5AE11FD06A5B009D3A8A /* ThirdShareManager.m in Sources */,
 				86DCA3DF1FC804E6002793AE /* CityModel.m in Sources */,
@@ -3321,7 +3322,6 @@
 				8605AE111FB02F6B009570CA /* YYTextRunDelegate.m in Sources */,
 				8607A39F1FB2D8CE003D6B6B /* ZWHRightView.m in Sources */,
 				8605ADA71FB02F6A009570CA /* TAAnimatedDotView.m in Sources */,
-				E5F5B0E7205928990089C58A /* HMScoreScrollView.m in Sources */,
 				E59EEC5A20521F8400243A15 /* scoreViewController.m in Sources */,
 				869BB4831FBD5F1E006E1135 /* ZWHJudgeViewController.m in Sources */,
 				8672AFFE1FBEB158004F6569 /* ZWHKSixTableViewCell.m in Sources */,
