@@ -57,10 +57,10 @@
     [self.view addSubview:self.headerView];
      NSLog(@"++___________ = %@", _dataModel.userBalance);
 }
-- (HMScoreScrollView *)headerView
+- (HMScoreView *)headerView
 {
     if (!_headerView) {
-        _headerView = [[HMScoreScrollView alloc] initWithFrame:self.view.bounds];
+        _headerView = [[HMScoreView alloc] initWithFrame:self.view.bounds];
     }
     return _headerView;
 }

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ZWHMyWorkModel.h"
 #import "HMScoreView.h"
-#import "HMScoreScrollView.h"
+//#import "HMScoreScrollView.h"
 
 
 @interface scoreViewController : UIViewController
@@ -27,6 +27,7 @@
 @property (nonatomic, strong) UILabel * boundsDataLabel;
 
 @property (nonatomic, strong) ZWHMyWorkModel * dataModel;
-@property (nonatomic, strong) HMScoreScrollView * headerView;
+//@property (nonatomic, strong) HMScoreScrollView * headerView;
+@property (nonatomic, strong) HMScoreView *headerView;
 
 @end
